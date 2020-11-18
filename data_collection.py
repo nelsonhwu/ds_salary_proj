@@ -10,10 +10,10 @@ import pandas as pd
 
 path = "C:/Users/Nelson J Hwu/Documents/ds_salary_proj/chromedriver.exe"
 
-# df = gs.get_jobs('data scientist', 1000, False, path, 15)
+df = gs.get_jobs('data scientist', 1000, False, path, 15)
 
-# df.to_csv('glassdoor_jobs_data_scientist.csv', index = False)
+df.to_csv('glassdoor_jobs_data_scientist.csv', index = False)
 
-df2 = gs.get_jobs('data analyst', 1000, False, path, 15)
+# df2 = gs.get_jobs('data analyst', 1000, False, path, 15)
 
-df2.to_csv('glassdoor_jobs_data_analyst.csv', index = False)
+# df2.to_csv('glassdoor_jobs_data_analyst.csv', index = False)
