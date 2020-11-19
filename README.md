@@ -36,4 +36,20 @@ Adjusted the web scraper github repo (above) to scrape 1000 job postings from gl
 * Revenue
 * Competitors
 
+# Data Cleaning
+After scraping the data, I needed to clean the data so that it was usable for my model.  I made the following changes and created the following variables:
+* Parsed numeric data out of salary
+* Made columns for employer provided salary and hourly wages
+* Removed rows without salary
+* Parsed rating out of company text
+* Made a new column for company state
+* Transformed founded date into age of the company
+* Made columns for if different skills were listed in the job description:
+  * Python
+  * Excel
+  * AWS
+  * Spark
+  * SQL
+* Column for simplified job title and seniority
+* Column for description length
 
