@@ -53,3 +53,5 @@ After scraping the data, I needed to clean the data so that it was usable for my
 * Column for simplified job title and seniority
 * Column for description length
 
+# EDA
+I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
