@@ -63,3 +63,22 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](https://github.com/nelsonhwu/ds_salary_proj/blob/master/Images/Data_Scientist/word_cloud.png "Job Description Word Cloud")
 
 ### Data Analyst
+
+# Model Building
+First, I transformed the categorical variables into dummy variables.  Then I split the data set into train and test sets witha test size of 20%.
+
+I tired three different models and evaluated them using the Mean Absolute Error.  I chose MAE because it is easy to interpret.
+
+The three models i used:
+* Mutliple Linear Regression - baseline for the model
+* Lasso Regression - Because of the sparse data from the many categorical variables, I felt a normalized regression would be effective.
+* Random Forest - The data set can be sparse, so I thought it would be a good fit
+
+# Model Performance
+The Random Forest model far outperformed the other approaches on the test and validation sets.
+* Random Forest: MAE = 10.75
+* Linear Regression: MAE = 16.49
+* Lasso Regression: MAE = 16.94
+
+# Productionization
+I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above.  The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
