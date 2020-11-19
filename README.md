@@ -20,3 +20,20 @@
 
 **Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
+# Web Scraping
+Adjusted the web scraper github repo (above) to scrape 1000 job postings from glassdoor.com/  With each job, we got the follow:
+* Job Title
+* Salary Estimate
+* Job Description
+* Rating
+* Company
+* Location
+* Company Size
+* Company Founded Date
+* Type of Ownership
+* Industry
+* Sector
+* Revenue
+* Competitors
+
+
