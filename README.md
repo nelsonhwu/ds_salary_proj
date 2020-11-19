@@ -55,3 +55,11 @@ After scraping the data, I needed to clean the data so that it was usable for my
 
 # EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
+
+### Data Scientist
+![alt text](https://github.com/nelsonhwu/ds_salary_proj/blob/master/Images/Data_Scientist/avg_salary_by_job_simp.png "Avg Salary by Simplified Job Title")
+![alt text](https://github.com/nelsonhwu/ds_salary_proj/blob/master/Images/Data_Scientist/graph_for_job_state.png "Number of Jobs by State")
+![alt text](https://github.com/nelsonhwu/ds_salary_proj/blob/master/Images/Data_Scientist/corr_heatmap.png "Correlation Heat Map")
+![alt text](https://github.com/nelsonhwu/ds_salary_proj/blob/master/Images/Data_Scientist/word_cloud.png "Job Description Word Cloud")
+
+### Data Analyst
