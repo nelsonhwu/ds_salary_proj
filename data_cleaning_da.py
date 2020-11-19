@@ -10,8 +10,6 @@ import pandas as pd
 df = pd.read_csv('glassdoor_jobs_data_analyst.csv')
 
 #salary parsing
-df.columns
-
 df['hourly'] = df['Salary Estimate'].apply(lambda x: 1 if 'per hour' in x.lower() else 0)
 df['employer_provided'] = df['Salary Estimate'].apply(lambda x: 1 if 'employer provided salary' in x.lower() else 0)
 
@@ -32,10 +30,9 @@ df['company_text'] = df.apply(lambda x: x['Company Name'] if x['Rating'] <0 else
 df['job_state'] = df['Location'].apply(lambda x: x.split(',')[1])
 
 #age of company
-df['age'] = df.Founded.apply(lambda x: x if x <0 else 2020 - x)
+df['company_age'] = df.Founded.apply(lambda x: x if x <0 else 2020 - x)
 
 #parsing of job description (python, etc.)
-
 #python
 df['python_yn'] = df['Job Description'].apply(lambda x: 1 if 'python' in x.lower() else 0)
 
@@ -43,13 +40,16 @@ df['python_yn'] = df['Job Description'].apply(lambda x: 1 if 'python' in x.lower
 df['R_yn'] = df['Job Description'].apply(lambda x: 1 if 'r studio' in x.lower() or 'r-studio' in x.lower() else 0)
 
 #spark
-df['spark'] = df['Job Description'].apply(lambda x: 1 if 'spark' in x.lower() else 0)
+df['spark_yn'] = df['Job Description'].apply(lambda x: 1 if 'spark' in x.lower() else 0)
 
 #aws
-df['aws'] = df['Job Description'].apply(lambda x: 1 if 'aws' in x.lower() else 0)
+df['aws_yn'] = df['Job Description'].apply(lambda x: 1 if 'aws' in x.lower() else 0)
 
 #excel
-df['excel'] = df['Job Description'].apply(lambda x: 1 if 'excel' in x.lower() else 0)
+df['excel_yn'] = df['Job Description'].apply(lambda x: 1 if 'excel' in x.lower() else 0)
+
+#SQL
+df['sql_yn'] = df['Job Description'].apply(lambda x: 1 if 'sql' in x.lower() else 0)
 
 df.to_csv('salary_data_cleaned_da.csv', index = False)
 
