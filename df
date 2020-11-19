@@ -1,0 +1,195 @@
+[33mcommit d5099c3086a29a8f154f5fd72ad62b42b6680210[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 9844c64 b567910
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 14:45:26 2020 -0800
+
+    Merge branch 'master' of https://github.com/nelsonhwu/ds_salary_proj into master
+
+[33mcommit 9844c64a8ae82211dfae54ae5d1282ccd9450c92[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 14:44:47 2020 -0800
+
+    EDA for Data Analyst
+
+[33mcommit b5679104489ca74df16988d3c02b7bb509e66f73[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 13:39:53 2020 -0800
+
+    Included Three Sections
+    
+    Model Building, model performance, and Productionization
+
+[33mcommit dbbf0fb350922686e9541c5d2d08b0b99d59c340[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 13:28:26 2020 -0800
+
+    Updated images to EDA section
+
+[33mcommit 823b4e32ef95dfe197b98a681689763302ed5bda[m
+Merge: ed66b7a 0d9e059
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 13:23:20 2020 -0800
+
+    Merge branch 'master' of https://github.com/nelsonhwu/ds_salary_proj into master
+
+[33mcommit ed66b7a53971adc5690205546a45ef36be828db1[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 13:22:51 2020 -0800
+
+    new images for DS
+
+[33mcommit 0d9e05995127843adb27703a98b411ec36d99a77[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 13:08:25 2020 -0800
+
+    Included EDA section
+
+[33mcommit 4f2ab0591a4e74ac71afb399978d97faec4d9505[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 12:48:06 2020 -0800
+
+    Included Data Cleaning section
+
+[33mcommit 606c7fef97ece5988756e8d3c9cdd8e6fba48441[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 12:28:45 2020 -0800
+
+    Added web scraping section
+
+[33mcommit 1ccf8300d836439309badeea7129f3a4602a9aad[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 12:23:27 2020 -0800
+
+    updated overview and resources used
+
+[33mcommit b1172d925d0c8a906d8c736f88c117d1c989b73b[m
+Merge: 5e04b78 b25250f
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 11:52:14 2020 -0800
+
+    Merge pull request #6 from nelsonhwu/flask_API
+    
+    created flask api endpoint
+
+[33mcommit b25250f3a824a53271f68a3ea950fa34827456e5[m[33m ([m[1;31morigin/flask_API[m[33m, [m[1;32mflask_API[m[33m)[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Thu Nov 19 11:51:16 2020 -0800
+
+    created flask api endpoint
+
+[33mcommit 5e04b78982626eea4035dd0883c3d9cafc89445a[m
+Merge: 5d2da94 ae9a2d9
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Wed Nov 18 16:36:13 2020 -0800
+
+    Merge pull request #5 from nelsonhwu/model_building_ds
+    
+    built models for pred glassdoor. DS
+
+[33mcommit ae9a2d99ff32ee93246ae342f4728c61bdc59ad9[m[33m ([m[1;31morigin/model_building_ds[m[33m, [m[1;32mmodel_building_ds[m[33m)[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Wed Nov 18 16:34:57 2020 -0800
+
+    built models for pred glassdoor. DS
+
+[33mcommit 5d2da94be67946e869912ed0c028a3e4607ba30c[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Wed Nov 18 14:24:10 2020 -0800
+
+    modified data_eda_ds
+
+[33mcommit 648c95f86aed885083608920857a3d29d361b325[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Wed Nov 18 14:21:45 2020 -0800
+
+    converted eda data to csv
+
+[33mcommit 6d823bee4a5917477bfdde5cca7d1f38e1326293[m
+Merge: 91b43f0 6423d0e
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Wed Nov 18 14:04:35 2020 -0800
+
+    Merge pull request #4 from nelsonhwu/data_eda_ds
+    
+    added data eda jupyter notebook
+
+[33mcommit 6423d0e3f9f9d6b574774627e830de479ff67ef7[m[33m ([m[1;31morigin/data_eda_ds[m[33m, [m[1;32mdata_eda_ds[m[33m)[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Wed Nov 18 14:02:27 2020 -0800
+
+    added data eda jupyter notebook
+
+[33mcommit 91b43f07cfcf89c4cb0c740d2dc1934fb5cb2cc0[m
+Merge: ddc2bca 73a2c52
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Wed Nov 18 10:36:56 2020 -0800
+
+    Merge pull request #3 from nelsonhwu/data_cleaning_da
+    
+    adjusting data collection file
+
+[33mcommit 73a2c522ac911039d2d5680bb027dce478002695[m[33m ([m[1;31morigin/data_cleaning_da[m[33m, [m[1;32mdata_cleaning_da[m[33m)[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Wed Nov 18 10:30:54 2020 -0800
+
+    adjusting data collection file
+
+[33mcommit ddc2bca873b61f75487ad3a1814a329724991b40[m
+Merge: e4235e2 e4a87e4
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Tue Nov 17 22:13:39 2020 -0800
+
+    Merge pull request #2 from nelsonhwu/data_cleaning_da
+    
+    data cleaning DA
+
+[33mcommit e4a87e4c6a96f8657542182e1eeb3ec266d35915[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Tue Nov 17 22:11:53 2020 -0800
+
+    data cleaning DA
+
+[33mcommit e4235e25bb5fbdefa39e5db4e188aa8dcaa9b48e[m
+Merge: cd84c9d 25e2923
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Tue Nov 17 20:48:00 2020 -0800
+
+    Merge pull request #1 from nelsonhwu/data_cleaning
+    
+    data cleaning script created
+
+[33mcommit 25e2923c41702e32429fb9f241863efb631dcfb5[m[33m ([m[1;31morigin/data_cleaning[m[33m, [m[1;32mdata_cleaning[m[33m)[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Tue Nov 17 20:46:09 2020 -0800
+
+    data cleaning script created
+
+[33mcommit cd84c9d2649547feb52743b1b7072033f0fb645d[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Tue Nov 17 19:56:39 2020 -0800
+
+    added tds article as well
+
+[33mcommit 9619dd973d4c90f1d56842e429bed3e6d6bf8a32[m[33m ([m[1;32mdata_eda[m[33m)[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Tue Nov 17 18:59:12 2020 -0800
+
+    updated readme
+
+[33mcommit 4e6bab33c452d451298a7386cb16e038d8dda4ed[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Tue Nov 17 18:56:10 2020 -0800
+
+    uploading data and data collection script
+
+[33mcommit 3c97dc0ff34e5702ccc06bc4f3d6c87e88e305e7[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Tue Nov 17 12:43:53 2020 -0800
+
+    scraped 1000 jobs
+
+[33mcommit 93eabddc5ee6d40d95b720a0c502079e3a3e515c[m
+Author: nelsonhwu <69525077+nelsonhwu@users.noreply.github.com>
+Date:   Tue Nov 17 12:03:06 2020 -0800
+
+    uploaded scraper and run code
