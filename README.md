@@ -1,5 +1,5 @@
 # Salary Estimator - Data Scientist vs Data Analyst: Project Overview
-* Created a tool that estimates data scientists' and data analysts' salaries () to help job seekers understand and negatiate their income when they get a job
+* Created a tool that estimates data scientists' (MAE ~ $11K) and data analysts' (MAE ~ $8K) salaries to help job seekers understand and negatiate their income when they get a job
 * Scarped over 2000 jobs descriptions from glassdoor using python and selenium
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, spark, and sql.
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
@@ -63,6 +63,10 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](https://github.com/nelsonhwu/ds_salary_proj/blob/master/Images/Data_Scientist/word_cloud.png "Job Description Word Cloud")
 
 ### Data Analyst
+![alt text](https://github.com/nelsonhwu/ds_salary_proj/blob/master/Images/Data_analyst/avg_salary_by_seniority.png "Avg Salary by Simplified Job Title")
+![alt text](https://github.com/nelsonhwu/ds_salary_proj/blob/master/Images/Data_analyst/graph_for_job_state_da.png "Number of Jobs by State")
+![alt text](https://github.com/nelsonhwu/ds_salary_proj/blob/master/Images/Data_analyst/corr_heatmap_da.png "Correlation Heat Map")
+![alt text](https://github.com/nelsonhwu/ds_salary_proj/blob/master/Images/Data_analyst/word_cloud_da.png "Job Description Word Cloud")
 
 # Model Building
 First, I transformed the categorical variables into dummy variables.  Then I split the data set into train and test sets witha test size of 20%.
@@ -75,10 +79,16 @@ The three models i used:
 * Random Forest - The data set can be sparse, so I thought it would be a good fit
 
 # Model Performance
-The Random Forest model far outperformed the other approaches on the test and validation sets.
+The Random Forest model far outperformed the other approaches on the test and validation sets for both Data Scientists and Data Analysts.
+#### Data Scientist
 * Random Forest: MAE = 10.75
 * Linear Regression: MAE = 16.49
 * Lasso Regression: MAE = 16.94
+
+#### Data Analyst
+* Random Forest: MAE = 8.16
+* Lasso Regression: MAE = 12.62
+* Linear Regression: MAE = 3197509132.11 ( model does not fit well )
 
 # Productionization
 I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above.  The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
