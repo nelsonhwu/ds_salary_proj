@@ -1,5 +1,5 @@
 # Salary Estimator - Data Scientist vs Data Analyst: Project Overview
-* Created a tool that estimates data scientists' (MAE ~ $11K) and data analysts' (MAE ~ $8K) salaries to help job seekers understand and negatiate their income when they get a job
+* Created a tool that estimates data scientists' (MAE ~ $11K) and data analysts' (MAE ~ $8K) salaries to help job seekers understand and negotiate their income when they get a job
 * Scarped over 2000 jobs descriptions from glassdoor using python and selenium
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, spark, and sql.
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
